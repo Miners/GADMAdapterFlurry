@@ -1,0 +1,46 @@
+{
+  "name": "GADMAdapterFlurry",
+  "version": "6.0.0",
+  "summary": "Google Mediation Networks: Flurry",
+  "description": "Flurry adapter of the Google Mediation Networks.",
+  "homepage": "https://developers.google.com/admob/ios/mediation-networks",
+  "license": {
+    "text": "Copyright 2015 Yahoo Inc. All Rights Reserved.",
+    "type": "Copyright"
+  },
+  "authors": "Yahoo Inc.",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "dependencies": {
+    "Flurry-iOS-SDK/FlurryAds": "~> 7.2",
+    "Google-Mobile-Ads-SDK": "~> 7.5"
+  },
+  "vendored_libraries": [
+    "libFlurryDFPAdapter_6.0.0.r1.a"
+  ],
+  "weak_frameworks": [
+    "AdSupport"
+  ],
+  "frameworks": [
+    "AudioToolbox",
+    "AVFoundation",
+    "QuartzCore",
+    "CoreGraphics",
+    "CoreTelephony",
+    "Foundation",
+    "EventKit",
+    "EventKitUI",
+    "MessageUI",
+    "MediaPlayer",
+    "Security",
+    "SystemConfiguration",
+    "StoreKit",
+    "UIKit"
+  ],
+  "requires_arc": true,
+  "source": {
+    "git": "https://github.com/flurry/FlurryAdapterForDFPAndAdMobiOS.git",
+    "commit": "29a92d80270e2e3a6d2f253d7ba19c87dd682632"
+  }
+}
